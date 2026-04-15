@@ -11,9 +11,11 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 font-mono text-sm uppercase tracking-widest text-background/60">
           <div className="flex flex-col gap-4">
             <h5 className="text-background font-bold mb-2 tracking-tighter">Nossos serviços</h5>
-            <a href="#buques" className="hover:text-accent transition-colors">Buquês</a>
-            <a href="#sobre" className="hover:text-accent transition-colors">Filosofia</a>
-            <a href="#cestas" className="hover:text-accent transition-colors">Cestas</a>
+            <a href="#buquê-de-rosas" className="hover:text-accent transition-colors">Buquê de Rosas</a>
+            <a href="#buquê-mix-de-flores" className="hover:text-accent transition-colors">Mix de Flores</a>
+            <a href="#buquê-de-girassol" className="hover:text-accent transition-colors">Buquê de Girassol</a>
+            <a href="#cestas-para-presente" className="hover:text-accent transition-colors">Cestas para Presente</a>
+            <a href="#orquídeas-e-vasos" className="hover:text-accent transition-colors">Orquídeas e Vasos</a>
           </div>
           <div className="flex flex-col gap-4">
             <h5 className="text-background font-bold mb-2 tracking-tighter">Horário</h5>
