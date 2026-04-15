@@ -82,6 +82,7 @@ export const productsData = [
         title: "Buquê Flores do Dia",
         price: "80,00",
         installments: "",
+        observation: "* Feito com as flores que estão disponíveis no dia na loja. Checar disponibilidade com o vendedor!",
         image: "/buque_mix_de_flores/buque-flores-do-dia-80-00.jpg",
       },
       {

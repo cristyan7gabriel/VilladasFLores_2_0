@@ -85,6 +85,12 @@ export const ProductCatalog = () => {
                   <div className="p-3 md:p-8 flex flex-col flex-grow text-center items-center">
                     <h4 className="font-sans font-bold text-[13px] md:text-lg text-dark mb-1 md:mb-2 line-clamp-2 leading-tight">{product.title}</h4>
                     
+                    {product.observation && (
+                      <p className="font-sans text-[9px] md:text-xs text-dark/70 leading-[1.1] mb-2 px-1 text-center font-medium italic">
+                        {product.observation}
+                      </p>
+                    )}
+                    
                     <div className="mt-auto mb-3 md:mb-6 flex flex-col items-center">
                       <p className="font-mono text-[10px] md:text-sm text-dark/70 mb-0 md:mb-1">{product.installments}</p>
                       <p className="font-serif italic text-xl md:text-4xl text-accent font-semibold leading-none mt-1 md:mt-2">R$ {product.price}</p>
