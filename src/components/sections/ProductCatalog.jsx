@@ -82,12 +82,12 @@ export const ProductCatalog = () => {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out"
                     />
                   </div>
-                  <div className="p-3 md:p-8 flex flex-col flex-grow">
+                  <div className="p-3 md:p-8 flex flex-col flex-grow text-center items-center">
                     <h4 className="font-sans font-bold text-[13px] md:text-lg text-dark mb-1 md:mb-2 line-clamp-2 leading-tight">{product.title}</h4>
                     
-                    <div className="mt-auto mb-3 md:mb-6">
+                    <div className="mt-auto mb-3 md:mb-6 flex flex-col items-center">
                       <p className="font-mono text-[10px] md:text-sm text-dark/70 mb-0 md:mb-1">{product.installments}</p>
-                      <p className="font-serif italic text-base md:text-2xl text-accent font-semibold leading-none">R$ {product.price}</p>
+                      <p className="font-serif italic text-xl md:text-4xl text-accent font-semibold leading-none mt-1 md:mt-2">R$ {product.price}</p>
                     </div>
 
                     <button 
