@@ -50,6 +50,20 @@ export const productsData = [
         price: "180,00",
         installments: "",
         image: "/Buque_rosas/buque-de-rosas-eucalipto-180-00.jpeg",
+      },
+      {
+        id: "br-8",
+        title: "Buquê 2 Rosas",
+        price: "45,00",
+        installments: "",
+        image: "/Buque_rosas/buque-2-rosas-45-00.jpg",
+      },
+      {
+        id: "br-9",
+        title: "Buquê 4 Rosas + Girassol",
+        price: "180,00",
+        installments: "",
+        image: "/Buque_rosas/buque-4-rosas-girassol-180-00.jpg",
       }
     ]
   },
@@ -80,7 +94,7 @@ export const productsData = [
         title: "Buquê de Girassóis com Rosas",
         price: "224,00",
         installments: "3x de R$ 74,66",
-        image: "/buques_fotos/WhatsApp Image 2026-03-23 at 20.47.00(1).jpeg",
+        image: "/buques_fotos/whatsapp-image-2026-03-23-at-20-47-00-1.jpeg",
       }
     ]
   },
@@ -92,7 +106,7 @@ export const productsData = [
         title: "Cesta de Café da Manhã Completa",
         price: "280,00",
         installments: "3x de R$ 93,33",
-        image: "/Cestas_fotos/WhatsApp Image 2026-03-23 at 20.36.05.jpeg",
+        image: "/Cestas_fotos/whatsapp-image-2026-03-23-at-20-36-05.jpeg",
       },
       {
         id: "c-2",
