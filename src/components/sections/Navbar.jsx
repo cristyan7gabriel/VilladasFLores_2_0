@@ -43,7 +43,7 @@ export const Navbar = () => {
             <a href="#buquê-mix-de-flores" className="hover:opacity-60 transition-opacity">Mix</a>
             <a href="#buquê-de-girassol" className="hover:opacity-60 transition-opacity">Girassol</a>
             <a href="#cestas-para-presente" className="hover:opacity-60 transition-opacity">Cestas</a>
-            <a href="#orquídeas-e-vasos" className="hover:opacity-60 transition-opacity">Plantas</a>
+            <a href="#orquídeas-e-vasos" className="hover:opacity-60 transition-opacity">Orquídeas</a>
           </div>
 
           <div className="hidden md:block">
@@ -67,7 +67,7 @@ export const Navbar = () => {
             <a href="#buquê-mix-de-flores" onClick={() => setIsMobileMenuOpen(false)} className="font-mono text-sm uppercase tracking-widest py-3 border-b border-primary/5 hover:bg-primary/5 px-4 rounded-lg transition-colors">Mix</a>
             <a href="#buquê-de-girassol" onClick={() => setIsMobileMenuOpen(false)} className="font-mono text-sm uppercase tracking-widest py-3 border-b border-primary/5 hover:bg-primary/5 px-4 rounded-lg transition-colors">Girassol</a>
             <a href="#cestas-para-presente" onClick={() => setIsMobileMenuOpen(false)} className="font-mono text-sm uppercase tracking-widest py-3 border-b border-primary/5 hover:bg-primary/5 px-4 rounded-lg transition-colors">Cestas</a>
-            <a href="#orquídeas-e-vasos" onClick={() => setIsMobileMenuOpen(false)} className="font-mono text-sm uppercase tracking-widest py-3 border-b border-primary/5 hover:bg-primary/5 px-4 rounded-lg transition-colors">Plantas</a>
+            <a href="#orquídeas-e-vasos" onClick={() => setIsMobileMenuOpen(false)} className="font-mono text-sm uppercase tracking-widest py-3 border-b border-primary/5 hover:bg-primary/5 px-4 rounded-lg transition-colors">Orquídeas</a>
             <a href="https://wa.me/556233002097" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="font-mono text-sm uppercase tracking-widest py-3 text-accent font-bold mt-2 hover:bg-accent/10 px-4 rounded-lg transition-colors flex items-center justify-between">
               Falar no WhatsApp
             </a>
