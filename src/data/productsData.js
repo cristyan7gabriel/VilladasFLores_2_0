@@ -74,14 +74,14 @@ export const productsData = [
         id: "bq-5",
         title: "Buquê Flores do Campo",
         price: "179,00",
-        installments: "3x de R$ 59,66",
+        installments: "",
         image: "/buques_fotos/IMG_0415.jpg",
       },
       {
         id: "bq-6",
         title: "Buquê Margaridas e Gérberas",
         price: "140,00",
-        installments: "3x de R$ 46,66",
+        installments: "",
         image: "/buques_fotos/IMG_6319.HEIC",
       }
     ]
@@ -114,7 +114,7 @@ export const productsData = [
         id: "bg-4",
         title: "Buquê de Girassol com rosas vermelhas + Ferrero Rocher",
         price: "240,00",
-        installments: "3x de R$ 80,00",
+        installments: "2x de R$ 120,00",
         image: "/buque_girassol/buque-de-girassol-com-rosas-vermelhas-ferrero-rocher-240-00.jpg",
       },
       {
@@ -161,21 +161,21 @@ export const productsData = [
         id: "c-1",
         title: "Cesta de Café da Manhã Completa",
         price: "280,00",
-        installments: "3x de R$ 93,33",
+        installments: "2x de R$ 140,00",
         image: "/Cestas_fotos/whatsapp-image-2026-03-23-at-20-36-05.jpeg",
       },
       {
         id: "c-2",
         title: "Cesta Romântica com Vinho",
         price: "350,00",
-        installments: "3x de R$ 116,66",
+        installments: "2x de R$ 175,00",
         image: "/Cestas_fotos/ab1e3482-956e-4ce6-9cca-0f5012818534.jpg",
       },
       {
         id: "c-3",
         title: "Cesta de Chocolates",
         price: "190,00",
-        installments: "3x de R$ 63,33",
+        installments: "",
         image: "/Cestas_fotos/IMG_4916.jpg",
       }
     ]
@@ -187,21 +187,21 @@ export const productsData = [
         id: "o-1",
         title: "Orquídea Phalaenopsis Premium",
         price: "185,00",
-        installments: "3x de R$ 61,66",
+        installments: "",
         image: "/Orquideas/IMG_0284.jpg",
       },
       {
         id: "o-2",
         title: "Arranjo Orquídeas Duplas",
         price: "295,00",
-        installments: "3x de R$ 98,33",
+        installments: "2x de R$ 147,50",
         image: "/Orquideas/IMG_0714.jpg",
       },
       {
         id: "v-1",
         title: "Cacto Premium em Vaso",
         price: "120,00",
-        installments: "3x de R$ 40,00",
+        installments: "",
         image: "/Plantas/IMG_0699.jpg",
       }
     ]
