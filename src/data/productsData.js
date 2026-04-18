@@ -4,14 +4,14 @@ export const productsData = [
     items: [
       {
         id: "br-1",
-        title: "Buquê 6 Rosas",
-        price: "179,90",
+        title: "Buquê 6 Rosas Pink",
+        price: "180,00",
         installments: "",
         image: "/Buque_rosas/buque-6-rosas-179-90.jpeg",
       },
       {
         id: "br-2",
-        title: "Buquê 6 Rosas Premium",
+        title: "Buquê 6 Rosas",
         price: "180,00",
         installments: "",
         image: "/Buque_rosas/buque-6-rosas-180-00.jpeg",
